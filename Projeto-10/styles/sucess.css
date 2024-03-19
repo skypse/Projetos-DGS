@@ -1,0 +1,29 @@
+.success {
+  flex-direction: column;
+  padding: 0 100px;
+  align-items: center;
+}
+
+.success h1 {
+  text-align: center;
+
+  font-size: 40px;
+  line-height: 48px;
+
+  height: 0;
+  overflow: hidden;
+
+  animation: animationText 1s forwards;
+  animation-delay: 2s;
+}
+
+@keyframes animationText {
+  0% {
+    height: 0;
+  }
+
+  100% {
+    height: 96px;
+    margin-bottom: 60px;
+  }
+}

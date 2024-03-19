@@ -1,0 +1,135 @@
+@import url("https://fonts.googleapis.com/css2?family=Righteous&family=Sarala:wght@400;700&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  text-decoration: none;
+  font-family: "Sarala", sans-serif;
+}
+
+:root {
+  --white: #fff2e7;
+  --brown: #2f2325;
+  --light-brown: #8e5d52;
+  --light-white: #ecd6c4;
+  --gap: 32px;
+  --weight: 400;
+}
+
+body {
+  font-size: 100%;
+  background: linear-gradient(
+    68.15deg,
+    var(--brown) 16.62%,
+    var(--light-brown) 85.61%
+  );
+}
+
+.header {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-around;
+}
+
+.header img {
+  height: 80px;
+}
+
+.header nav {
+  display: flex;
+  gap: var(--gap);
+}
+
+.header nav a {
+  font-weight: var(--weight);
+  color: var(--white);
+  font-size: 18px;
+}
+
+.main {
+  margin-bottom: 48px;
+  border-top: 0.4px solid var(--white);
+}
+
+.main-section {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-around;
+}
+
+.content {
+  display: flex;
+  flex-direction: column;
+  gap: var(--gap);
+}
+
+.content h1 {
+  font-weight: var(--weight);
+  font-size: 64px;
+  color: var(--white);
+}
+
+.content h2 {
+  font-weight: var(--weight);
+  font-size: 24px;
+  color: var(--light-white);
+}
+
+.content button {
+  background-color: var(--light-white);
+  width: 180px;
+  height: 60px;
+  cursor: pointer;
+  border: none;
+  box-shadow: 4px 5px 4px rgba(0, 0, 0, 0.25);
+  border-radius: 20px;
+  font-weight: var(--weight);
+  font-size: 24px;
+  color: #2f2325;
+  transition: all 0.2s ease-in-out;
+}
+
+.content button:hover {
+  background-color: rgba(236, 214, 196, 0.53);
+}
+
+.content-img {
+  height: 430px;
+}
+
+.second-section {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 24px;
+  margin-top: 48px;
+}
+
+.second-section h3 {
+  border-top: 0.4px solid var(--white);
+  padding-top: 48px;
+  font-weight: var(--weight);
+  font-size: 24px;
+  color: var(--white);
+  margin-bottom: 16px;
+}
+
+.second-section p {
+  font-weight: var(--weight);
+  font-size: 18px;
+  color: var(--light-white);
+}
+
+.footer {
+  padding: 32px;
+  border-top: 0.4px solid var(--white);
+}
+
+.footer img {
+  height: 48px;
+  display: block;
+  margin: 0 auto;
+}

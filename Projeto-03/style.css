@@ -1,0 +1,148 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600;700;800;900&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Poppins", sans-serif;
+  list-style-type: none;
+  text-decoration: none;
+}
+
+body {
+  width: 100%;
+  height: 100vh;
+  position: relative;
+}
+
+nav .wrapper {
+  position: absolute;
+  top: 0px;
+  height: 10vh;
+  width: 100%;
+}
+
+nav .nav-container {
+  width: 100%;
+  height: 100%;
+  margin: 0px 0px 60px;
+  position: relative;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+nav .nav-container img {
+  width: 60px;
+}
+
+nav .nav-container .links a {
+  font-size: 1.3rem;
+  color: black;
+  margin: 0px 20px;
+  transform: 0.2s linear;
+}
+
+nav .nav-container .links a:hover {
+  color: rgb(0, 131, 35);
+}
+
+nav .nav-container .search {
+  width: 320px;
+  box-shadow: 1px 1px 20px rgb(3, 113, 32);
+  height: 5vh;
+  display: flex;
+  border-radius: 20px;
+  overflow: hidden;
+  border: 1px solid rgb(80, 80, 80);
+  margin-right: 30px;
+}
+
+::placeholder {
+  color: rgb(0, 0, 0);
+}
+
+nav .nav-container .search i {
+  color: rgb(80, 80, 80);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 1.4rem;
+  width: 14%;
+  cursor: pointer;
+  height: 100%;
+}
+
+nav .nav-container .search input {
+  width: 86%;
+  padding-left: 15px;
+  height: 100%;
+  background-color: transparent;
+  border: none;
+  outline: none;
+}
+
+.landingpage {
+  background-image: url(/Projeto-03/img/back.png);
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  width: 100%;
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.landingpage .content {
+  display: flex;
+  margin-top: 150px;
+  justify-content: space-around;
+  align-items: center;
+}
+
+.landingpage .content .heading {
+  margin-top: -100px;
+  margin-right: 10px;
+  max-width: 460px;
+  width: 100%;
+}
+
+.landingpage .content .heading h3 {
+  color: rgb(207, 16, 16);
+  font-size: 1.6rem;
+}
+
+.landingpage .content .heading h1 {
+  color: rgb(0, 0, 0);
+  line-height: -2rem;
+  font-size: 4rem;
+}
+
+.landingpage .content .heading p {
+  color: black;
+  font-size: 1.2rem;
+}
+
+.landingpage .content .heading button {
+  width: 220px;
+  height: 50px;
+  margin: 20px;
+  cursor: pointer;
+  box-shadow: 2px 2px 2px rgb(255, 255, 255);
+  letter-spacing: 1.5px;
+  word-spacing: 5px;
+  background-color: rgb(60, 60, 60);
+  color: rgb(255, 255, 255);
+  border-radius: 20px;
+  transition: 0.5s linear;
+}
+
+.landingpage .content .heading button:hover {
+  scale: 1.05;
+}
+
+.landingpage .content .heading img {
+  width: 800px;
+  transform: rotate(40deg);
+}
